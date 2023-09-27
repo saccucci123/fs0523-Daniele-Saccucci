@@ -1,9 +1,18 @@
 .immagine-centrata{
-    text-align:center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.immagine-centrata img{
+    height: 60px;
+
 }
 
 .sottotitolo{
-    color: blue;
+    color: teal;
+    padding:12px 0;
     text-align: center;
     background-color: blanchedalmond;
 }
